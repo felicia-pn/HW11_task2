@@ -3,7 +3,7 @@ on: push
 jobs:
   super-lint:
     name: Lint code base 
-    runs-on: buntu-latest 
+    runs-on: ubuntu-latest 
     steps:
       -   name: Checkout code 
           uses: github/super-linter@v3.17.0
